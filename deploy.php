@@ -1,4 +1,4 @@
 <?php
-      $message=shell_exec("/root/www/deploy.sh");
+      $message=shell_exec("/www/deploy.sh");
       print_r($message);
 ?>
